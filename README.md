@@ -4,9 +4,9 @@
 #### Choise one of this: curl or wget, depends waht you have in your system. Or just copy & paste in you terminal.  
 via curl:
 ```bash
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/frontandstart/rrun/master/rrun.sh)"
 ```
 via wget:
 ```bash
-sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
+sh -c "$(wget https://raw.githubusercontent.com/frontandstart/rrun/master/rrun.sh -O -)"
 ```
