@@ -4,7 +4,7 @@ printf "|-- set current user password     --|\n" &&\
 sudo passwd $(id -u -n) &&\
 printf "|-----------------------------------|\n" &&\
 printf "|-- update & uppgrade             --|\n" &&\
-sudo apt-get -y update && sudo apt-get -y update &&\
+sudo apt-get -y update && sudo apt-get -y upgrade &&\
 printf "|-----------------------------------|\n" &&\
 printf "|-- install min software          --|\n" &&\
 sudo apt-get -y install nano curl wget zsh git libgmp-dev nginx &&\
